@@ -1,0 +1,156 @@
+/* global styles*/
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;} 
+
+body{
+    background-color: rgb(255, 187, 0);
+    font-family:'Times New Roman', Times, serif;
+}
+.login-form{
+    width: 100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    background-color:  rgba(155, 115, 0, 0.850);
+    padding: 20px;
+}
+.form{
+    /*background-color: chocolate;*/
+    width: 80%;
+    margin: 50px auto;
+}
+.form-content{
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+}
+.title{
+    color: black;
+    text-transform: uppercase;
+}
+.user-name , .password{
+    height: 40px;
+    padding: 15px;
+    outline: none;
+    border-radius: 3cm;
+    border-style: solid;
+    border-color: black;
+}
+.remember{
+    text-transform: capitalize;
+}
+.forget-link{
+    margin-left: 120px;
+    text-decoration: none;
+    color: rgb(160, 0, 0);
+    text-transform: capitalize;
+}
+.submit{
+    width: 100px;
+    padding: 5px;
+    background-color: black;
+    color: orange;
+    text-transform: capitalize;
+    outline: none;
+    border-radius: 1cm;
+    border: none;
+    cursor: pointer;
+}
+.submit:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: .5s;
+    color: white;
+}
+.other-content{
+    text-align: center;
+    font-size: 20px;
+}
+.sub-title{
+    text-transform: capitalize;
+}
+.other-content-p{
+    text-transform: capitalize;
+}
+.other-content button{
+    height: 40px;
+    width: 115px;
+    padding: 5px;
+    text-transform: capitalize;
+    outline: none;
+    border-radius: 1cm;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+}
+.facebook{
+    background-color: rgb(0, 0, 184);
+    color: white;
+}
+.facebook:hover{
+    background-color: white;
+    color: rgb(0, 0, 184) ;
+    transition: .5s;
+}
+.twitter{
+    background-color: rgb(0, 182, 228);
+    color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.twitter:hover{
+    background-color: white;
+    color: rgb(0, 182, 228) ;
+    transition: .5s;
+}
+.google{
+    background-color: rgb(130, 0, 0);
+    color: white;
+}
+.google:hover{
+    background-color: white;
+    color: rgb(130, 0, 0) ;
+    transition: .5s;
+}
+.register{
+    text-align: center;
+    font-size: 20px;
+}
+.reg-p{
+    text-transform: capitalize;
+}
+.regist{
+    width: 100px;
+    padding: 5px;
+    background-color: black;
+    color: orange;
+    text-transform: capitalize;
+    outline: none;
+    border-radius: 1cm;
+    border: none;
+    cursor: pointer;
+}
+.regist:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: .5s;
+    color: white;
+
+}
+.facebook-link{
+    text-decoration: none;
+}
+.twitter-link{
+    text-decoration: none;
+}
+.google-link{
+    text-decoration: none;
+}
+hr{
+    border: none;
+    width: 70%;
+    height: 2px;
+    background-color: black;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn Form</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="login-form">
+        <div class="container">
+            <form class="form">
+                <div class="form-content">
+                    <h1 class="title">login</h1>
+                    <form>
+                        <!--<label class="name">user name</label>-->
+                        <input class="user-name" type="text" placeholder="User Name" required> <br>
+                        <!--<label class="pass">password</label>-->
+                        <input class="password" type="password" placeholder="Password" required> <br>
+                        <input type="checkbox" id="r"> <label class="remember" for="r">remember me</label>
+                        <a class="forget-link" href="#">forgot password?</a> <br>
+                        <input class="submit" type="submit" value="log in">
+                    </form>
+                </div> <!-- ./form content-->
+                <div class="other-content">
+                    <h3 class="sub-title">login</h3>
+                    <p class="other-content-p">with your social media account</p>
+                    <a class="facebook-link" href="https://www.facebook.com/" target="_blank">
+                        <button class="facebook">
+                        <i class="fab fa-facebook-f"></i>
+                        facebook 
+                        </button>
+                    </a>
+                    <a class="twitter-link" href="https://www.twitter.com" target="_blank">
+                        <button class="twitter">
+                        <i class="fab fa-twitter"></i>
+                        twitter</button> 
+                    </a>
+                    <a class="google-link" href="https://accounts.google.com/" target="_blank">
+                        <button class="google">
+                        <i class="fab fa-google-plus-g"></i>
+                        google+</button> 
+                    </a>
+                </div> <!-- ./other content -->
+                <hr>
+                <div class="register">
+                    <p class="reg-p"> don't have an account ? regist now for free</p>
+                    <button class="regist">register</button>
+                </div> <!-- ./register -->
+            </form> <!-- ./form-->
+        </div> <!-- ./container -->
+    </div> <!-- ./login form-->
+</body>
+</html>
